@@ -489,7 +489,14 @@ if ($darkmode) {?>
             </ul>
         </nav>
     </div>
-    <?php }}?>
+    <?php } ?>
+    <div class="container" style="margin-top: 25px;">
+        <footer>
+            <p class="text-end">By Math' - Project Github: <a href="https://github.com/MathDuck/StickyPHP"
+                    target="_blank">StickyPHP</a></p>
+        </footer>
+    </div>
+    <?php } ?>
     <div class="box" style="position:absolute;right:2%;bottom:5%;">
         <form action="index.php" method="post">
             <?php if ($darkmode) {?>
